@@ -46,12 +46,11 @@
     background: #3CFF66;
   }
   
-  /* Adicione esta regra para posicionar a imagem como carimbo no canto inferior direito */
   #carimbo {
     position: absolute;
-    bottom: 20px; /* Ajuste a distância do carimbo em relação à parte inferior da página conforme necessário */
-    right: -50px; /* Ajuste a distância do carimbo em relação à direita da página conforme necessário */
-    width: 180px; /* Ajuste a largura da imagem conforme necessário */
-    height: auto; /* A altura se ajustará automaticamente para manter a proporção original da imagem */
+    bottom: 20px;
+    right: -50px; 
+    width: 180px; 
+    height: auto; 
   }
   
