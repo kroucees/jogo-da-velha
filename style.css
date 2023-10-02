@@ -1,3 +1,4 @@
+/* Adicione estas regras de estilo ao seu arquivo style.css */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #B88AC2;
+    background: white;
+    position: relative; /* Adicione esta linha para permitir que a imagem seja posicionada em relação à página */
   }
   
   main {
@@ -26,7 +28,7 @@
   hr {
     font-weight: bold;
     height: 3px;
-    background: #673AB7;
+    background: #000000;
     margin-bottom: 10px;
   }
   
@@ -41,5 +43,15 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #C9A9E2;
+    background: #3CFF66;
   }
+  
+  /* Adicione esta regra para posicionar a imagem como carimbo no canto inferior direito */
+  #carimbo {
+    position: absolute;
+    bottom: 20px; /* Ajuste a distância do carimbo em relação à parte inferior da página conforme necessário */
+    right: -50px; /* Ajuste a distância do carimbo em relação à direita da página conforme necessário */
+    width: 180px; /* Ajuste a largura da imagem conforme necessário */
+    height: auto; /* A altura se ajustará automaticamente para manter a proporção original da imagem */
+  }
+  
